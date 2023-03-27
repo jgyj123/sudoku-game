@@ -1,0 +1,71 @@
+.settings-text {
+  text-align: center;
+}
+
+.settings {
+  width: 400px;
+  font-size: 20px;
+  margin: auto;
+  background-color: rgb(109, 108, 108);
+  border-radius: 25px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 3px 3px rgb(46, 45, 45);
+}
+.sudoku {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.level-button {
+  width: 100px;
+  height: 50px;
+  border-radius: 25px;
+  box-shadow: 2px 2px;
+  font-family: "Georgia";
+}
+@media screen and (max-width: 450px) {
+  table {
+    height: 90px;
+    width: 90px;
+    margin: auto;
+    border: 4px black solid;
+    background-color: black;
+  }
+  .cell {
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;
+  }
+  .settings {
+    width: 300px;
+    font-size: 15px;
+    margin: auto;
+    background-color: rgb(109, 108, 108);
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 3px 3px rgb(46, 45, 45);
+  }
+  .level-button {
+    width: 80px;
+    height: 40px;
+    border-radius: 25px;
+    box-shadow: 2px 2px;
+    font-family: "Georgia";
+  }
+}
+
+#button1 {
+  background-color: green;
+}
+#button2 {
+  background-color: orange;
+}
+#button3 {
+  background-color: red;
+}

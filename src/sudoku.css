@@ -1,0 +1,69 @@
+@media screen and (min-width: 460px) {
+  table {
+    height: 450px;
+    width: 450px;
+    margin: auto;
+    border: 4px black solid;
+  }
+  .cell {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    padding: 0px;
+    border: 1px solid black;
+    font-weight: 500;
+  }
+
+  .bottom {
+    border-bottom: solid 2px black;
+  }
+  .right {
+    border-right: solid 2px black;
+  }
+}
+tr,
+td {
+  padding: 0px;
+}
+@media screen and (max-width: 460px) {
+  table {
+    height: 324px;
+    width: 324px;
+    margin: auto;
+    border: 2px black solid;
+  }
+  .cell {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 17px;
+    height: 36px;
+    width: 36px;
+  }
+
+  .bottom {
+    border-bottom: solid 2px black;
+  }
+  .right {
+    border-right: solid 2px black;
+  }
+}
+
+.cell:focus {
+  background-color: #f2f2f2;
+}
+
+.given {
+  background-color: #cccccc;
+  color: black;
+}
+
+.img {
+  width: 25px;
+  height: 25px;
+}
+#hint {
+  background-color: transparent;
+  border: none;
+}
